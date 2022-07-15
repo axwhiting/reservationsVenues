@@ -6,6 +6,18 @@ header img {
     border-radius: 50%;
 }
 
+.brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+    .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    }
 h1 {
     color: #8d5c28;
     text-align: center;
@@ -31,6 +43,10 @@ nav a:hover {
 
 footer {
     background: #10150E;
+}
+#copyright{
+    display: flex;
+    align-items: flex-start;
 }
 
 footer div {
