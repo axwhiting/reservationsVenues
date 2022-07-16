@@ -33,16 +33,17 @@ h1 {
         "links-grid"
         "main-grid";
 }
+
 .rotate img{
-    transition: 1s ease;
-    }
+    transition: 0.5s ease;
+}
     
-    .rotate img:hover{
+.rotate img:hover{
     -webkit-transform: rotateZ(-10deg);
     -ms-transform: rotateZ(-10deg);
     transform: rotateZ(-10deg);
     transition: 1s ease;
-    }
+}
 
 #links-grid {
     grid-area: links-grid;
@@ -72,19 +73,9 @@ h1 {
     flex-direction: column;
 }
 
-#about-link {
-    grid-area: about-link;
-    display: flex;
-}
-
-#home-link {
-    grid-area: home-link;
-    display: flex;
-}
-
 #logo-image {
     display: flex;
-    width: 30%;
+    width: 50px;
     opacity: 0.7;
     margin: auto;
     padding-top: 20px;
@@ -105,15 +96,69 @@ h1 {
     grid-area: homepage;
     width: 100%;
 }
+
 ::-webkit-scrollbar {
     width: 14px;
-  }
+}
 
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #15150d;
-  }
+}
 
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color:#8d5c28
-  }
+}
 
+.brighten {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* @keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+/* #slide {
+    color: cornsilk;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    left: -100%;
+    width: 80%;
+    height: 80%;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.25s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+.box{
+    display: flex;
+    position: absolute;
+
+} */
+
+.form {
+    position: absolute;
+}
+
+.info {
+    color: darkgray;
+}
