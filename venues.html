@@ -9,59 +9,71 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
 </head>
-<body id="home">
+
+<body id="home-grid">
     <header>
         <nav id="links-grid">
+
             <div id="left-link">
                 <a href="about.html" id="about-link">About</a>
                 <a href="homepage.html" id="home-link">Home</a>
             </div>
+
             <div class ="rotate">
-            <img src="images/Logo4.png" alt="Our webpage's logo" id="logo-image">
-        </div>
+                <img src="images/Logo4.png" alt="Our webpage's logo" id="logo-image">
+            </div>
+
             <div id="right-link">
                 <a href="reservations.html" id="reservation-link">Reservations</a>
                 <a href="photos.html" id="services-link">Photos</a>
             </div>
+
         </nav>
     </header>
+
     <main>
-        <main>
         
-            <h1>Rachelle's</h1>
-        <section id="venues">
+        <h1 id="rach">Rachelle's</h1>
+
+        <section id="venues-grid">
     
-            <article id= "venue1">
-
+            <article id= "venue1" class="container">
                 <img src="images/-1.jpg" id="venue1-img" class="venueClass">
-                <div id="venue1-text">
-                    <h3>Lauvray's Lounge</h3>
-                    <p>The most traditional luxury experience Rachelle’s has created. Recommended for our clients wanting to impress their guests, with crushed-velvet booths, crystal chandeliers, and an endless supply of Stella Artois, your boss will surely be impressed</p>
+                <div class="overlay">
+                    <div id="venue1-text" class="text">
+                        <h3>Lauvray's Lounge</h3>
+                        <p>The most traditional luxury experience Rachelle’s has created. Recommended for our clients wanting to impress their guests, with crushed-velvet booths, crystal chandeliers, and an endless supply of Stella Artois, your boss will surely be impressed</p>
+                    </div>
                 </div>
-                
             </article>
 
-            <article id= "venue2">
+            <article id= "venue2" class="container">
                 <img src="images/-2.jpg" id="venue2-img" class="venueClass">
-                <div id="venue2-text">
-                    <h3>Carmichael's Cabana</h3>
-                    <p>Psst, keep this venue a secret. Rachelle’s wouldn't be complete without a tropical getaway, if you can find it that is. The cabana is the most elusive of our locations, hidden away in one of our other establishments. If you can find the golden switch, a bounty of pina-coladas and rattan furniture awaits you.</p>
+                <div class="overlay">
+                    <div id="venue2-text" class="text">
+                        <h3>Carmichael's Cabana</h3>
+                        <p>Psst, keep this venue a secret. Rachelle’s wouldn't be complete without a tropical getaway, if you can find it that is. The cabana is the most elusive of our locations, hidden away in one of our other establishments. If you can find the golden switch, a bounty of pina-coladas and rattan furniture awaits you.</p>
+                    </div>
                 </div>
             </article>
 
-            <article id= "venue3">
+            <article id= "venue3" class="container">
                 <img src="images/-3.jpg" id="venue3-img" class="venueClass">
-                <div id="venue3-text">
-                    <h3>Mysterious Matt's</h3>
-                    <p>the most exclusive location Rachelle’s has to offer, featuring a cozy dining room for ten, complete with a champagne vending machine and a gelato bar. A waiver of liability signature is required before entry.</p>
+                <div class="overlay">
+                    <div id="venue3-text" class="text">
+                        <h3>Mysterious Matt's</h3>
+                        <p>The most exclusive location Rachelle’s has to offer, featuring a cozy dining room for ten, complete with a champagne vending machine and a gelato bar. A waiver of liability signature is required before entry.</p>
+                    </div>
                 </div>
             </article>
 
-            <article id= "venue4">
+            <article id= "venue4" class="container">
                 <img src="images/-4.jpg" id="venue4-img" class="venueClass">
-                <div id="venue4-text">
-                    <h3>Fulton's Follow</h3>
-                    <p>Rachelle’s flagship location, bolstering a 200-person dining room, a private wine cellar, and a rooftop cigar lounge. What happens at Fulton’s Follow, stays at Fulton’s Follow.</p>
+                <div class="overlay">
+                    <div id="venue4-text" class="text">
+                        <h3>Fulton's Follow</h3>
+                        <p>Rachelle’s flagship location, bolstering a 200-person dining room, a private wine cellar, and a rooftop cigar lounge. What happens at Fulton’s Follow, stays at Fulton’s Follow.</p>
+                    </div>
                 </div>
             </article>
 
@@ -70,7 +82,6 @@
 
     </main>
 
-
-    <footer>&copy; Tech Elevator 2020</footer>
+    <footer id="copyright">Tech Elevator 2022</footer>
 </body>
 </html>
