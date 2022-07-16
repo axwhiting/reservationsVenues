@@ -54,6 +54,16 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
+.rotate img{
+    transition: 1s ease;
+    }
+    
+    .rotate img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
 
 #main-grid {
     display: flex;

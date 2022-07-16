@@ -13,6 +13,16 @@ nav a {
     box-shadow: inset 300px 0 0 0 #15150D;
     transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
+.rotate img{
+    transition: 1s ease;
+    }
+    
+    .rotate img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;
+    }
 
 nav a:hover {
     box-shadow: inset 300px 0 0 0 #b36f26;
@@ -96,6 +106,11 @@ h1 {
 #homepage {
     grid-area: homepage;
     width: 100%;
+}
+.fling-minislide{
+    border: 7px outset #8D5C28;
+    border-radius: 14px;
+    opacity: .65;
 }
 /* allows us to "cheat" the css without javascript for a minimal slideshow ,top line should make responsive*/
 .fling-minislide {width:50%; height:0px; padding-bottom: 50%; overflow:hidden; position:relative;  }
