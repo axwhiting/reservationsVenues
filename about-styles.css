@@ -1,5 +1,6 @@
 *{
     background-color: #15150D;
+    color: #b36f26;
 }
 nav a {
     color: #b36f26;
@@ -104,3 +105,23 @@ h1 {
     grid-area: homepage;
     width: 100%;
 }
+::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #15150d;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color:#8d5c28
+  }
+  #rachelles-photo{
+    
+    /*center with grid and flex ? */
+   
+
+    
+     
+
+  }

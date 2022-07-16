@@ -105,4 +105,15 @@ h1 {
     grid-area: homepage;
     width: 100%;
 }
+::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #15150d;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color:#8d5c28
+  }
 
