@@ -157,8 +157,33 @@ h1 {
 
 .form {
     position: absolute;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2.5%;
+    
+    
+    
 }
 
 .info {
+    justify-content: space-between;
     color: darkgray;
 }
+select{
+    color: wheat;
+}
+input{
+    color: wheat;
+    margin: 10px;
+    
+    align-items: center;
+    width: 100%;
+   
+}
+#submit{
+    justify-content: center;
+}
+
