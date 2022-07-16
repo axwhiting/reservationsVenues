@@ -154,3 +154,11 @@ h1 {
     position: absolute;
 
 } */
+
+.form {
+    position: absolute;
+}
+
+.info {
+    color: darkgray;
+}
