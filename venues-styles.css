@@ -25,6 +25,31 @@
         "venue3 venue4";
 }
 
+@media screen and (max-width: 800px) {
+    #venues-grid {
+        display: grid;
+        grid-area: venues-grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        grid-template-areas:
+            "rachelle"
+            "venue1"
+            "venue2"
+            "venue3"
+            "venue4";
+    }
+
+    .container{
+        width: 80%;
+        justify-self: center;
+    }
+
+    .overlay {
+        width: 80%;
+        justify-self: center;
+    }
+}
+
 #rachelle {
     grid-area: rachelle;
 }
