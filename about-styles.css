@@ -83,6 +83,25 @@ h1 {
     grid-template-areas:
         "img txt";
 }
+@media screen and (max-width: 800px) {
+    .main-flex{
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img"
+        "txt";
+    }
+    .main-flex img{
+        max-width: 85%;
+        max-height: 85%;
+        justify-self: center;
+        
+        
+    }
+    
+    }
+    
 
 .main-flex img {
     grid-area: img;
