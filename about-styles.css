@@ -96,8 +96,9 @@ h1 {
         max-width: 85%;
         max-height: 85%;
         justify-self: center;
-        
-        
+    }
+    #rachelle-text{
+        padding: 0%;
     }
     
     }
@@ -143,3 +144,18 @@ h1 {
 ::-webkit-scrollbar-thumb {
     background-color:#8d5c28
 }
+@media screen and (max-width: 800px) {
+    #links-grid{
+        grid-area: links-grid;
+        display: grid;
+        padding-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        
+        "left-link left-link right-link right-link"
+        ". logo-image logo-image .";
+    }
+    .rotate{
+        grid-area: logo-image;
+        
+    }

@@ -17,3 +17,11 @@
 .fling-minislide img:nth-child(1){animation-delay:9s;}
 
 
+@media screen and (max-width: 800px) {
+    .fling-minislide img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+   
+    
+}

@@ -27,9 +27,11 @@
 .info {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    color: wheat;
+    color: rgb(201, 168, 109);
     justify-content: space-between;
     padding: 5px;
+    font-weight: bold;
+
 }
 
 form div label {
@@ -38,18 +40,27 @@ form div label {
 }
 
 select{
-    color: wheat;
+    color: #b36f26;
     font-size: 20px;
 }
 
 #submit {
-    color:rgb(189, 167, 126);
+    color:#b36f26;
     font-size: 25px;
     font-family: 'Cinzel', sans-serif;
 }
 
 input{
-    color: wheat;
+    color: #b36f26;
     width: 100%;
     font-size: 20px;
+    color-scheme: dark;
+    border: 1px solid  rgb(201, 168, 109) ;
+   
+}
+#submit:hover{
+    background-color: black;
+  color:  #b36f26;
+
+
 }
